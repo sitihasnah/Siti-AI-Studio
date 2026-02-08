@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wizard Quest</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title</title>
     <style>
-      body {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #0a0a1a;
-        font-family: 'Quicksand', sans-serif;
-      }
-      .font-wizard {
-        font-family: 'Cinzel Decorative', cursive;
-      }
-      canvas {
-        display: block;
-        image-rendering: pixelated;
-      }
+        /* Inline CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        /* Add more styles as needed */
     </style>
-    <script type="importmap">
-    {
-      "imports": {
-        "react": "https://esm.sh/react@^19.2.4",
-        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-        "react/": "https://esm.sh/react@^19.2.4/"
-      }
-    }
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="./app.jsx"></script>
-  </body>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Content Here</h1>
+        <p>This is an example of using inline CSS instead of Tailwind CDN.</p>
+    </div>
+</body>
 </html>
